@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            /* normal attribute selector */
+            /* a[ href="https://chatgpt.com/c/69c1e0b5-9530-8320-adbc-478c848be73a"]{
+            color: brown;
+            text-decoration: underline;
+        }
+        img[alt="Placeholder-image"]{
+            border: 1px solid black;
+        }
+        input[type="text"]{
+           border: 1px solid rgb(54, 6, 157); 
+        } */
+            /* partial attribute selector */
+            a[href*="chatgpt"] {
+                color: aqua;
+                text-decoration: underline;
+            }
+            img[alt^="Placeholder"] {
+                border: 1px solid black;
+            }
+            a[href$="#block--OnpORR7Y9D1ICk-z57J"] {
+                color: coral;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="https://chatgpt.com/c/69c1e0b5-9530-8320-adbc-478c848be73a">Touch Me!</a>
+            <a href="https://portal.forward.edu.my/library/few-1-1-html-and-css-55800/742022/path/step/428487269/#block--OnpORR7Y9D1ICk-z57J">Lebron James</a>
+            <img src="https://placehold.co/300x200" alt="Placeholder image" />
+            <input type="text" name="" id="" />
+        </div>
+    </body>
+</html>

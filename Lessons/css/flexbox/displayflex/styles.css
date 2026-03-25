@@ -5,9 +5,12 @@
 .green {
     background-color: green;
     height: 80px !important;
+    
+    
 }
 .blue {
     background-color: blue;
+    /* margin: 50px; */
 }
 .container div {
     width: 100px;
@@ -15,11 +18,12 @@
 }
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    align-content: flex;
-    width: 200px;
-    height: 500px;
+    align-items: baseline;
+    flex-direction: column-reverse;
+    /* justify-content: space-around; */
+
+
+
+    width: 300vh;
+    height: 100vh;
 }
